@@ -1,0 +1,7 @@
+{
+  "name": "303Muscu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
