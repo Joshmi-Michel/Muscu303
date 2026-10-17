@@ -9,7 +9,7 @@
                 </div>
 
                 <div class="login-header">
-                    <div class="red-line"></div>
+                   <div class="red-dash"></div>
                     <h1>Connexion</h1>
                     <p class="subtile">Espace administrateur</p>
 
@@ -134,14 +134,13 @@ function forgotPassword(){
     text-align: center;
     margin-bottom:28px ;
    }
-   .red-line{
-    width: 8px;
-    height:4px;
-    border-radius: 5px;
-    background: #ff173d;
-    margin: 0 auto 14px;
-    box-shadow: 0 0 12px rgba(255, 23, 61, 0.5);
-   }
+  .red-dash {
+    width: 32px;
+    height: 6px;
+    margin: 0 auto 18px;
+    border-radius: 10px;
+    background: #ff1744;
+  }
 
    .login-header h1{
     margin: 0;
