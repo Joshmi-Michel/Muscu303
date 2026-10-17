@@ -121,6 +121,11 @@ import { arrowBackOutline, checkmarkCircleOutline, personAddOutline, personOutli
         //Demonstration uniquement
         // branche ici ton API ou ton service d'authentification
         message.value ='Formulaire valide. connecte maintenant ton service d inscription'
+       loading.value =true
+       try{
+         await new Promise(resolve=>setTimeout(resolve, 2000))
+         console.log("Traitement terminé")
+       }finally{loading.value=false}
     }
 </script>
 <style scoped>
