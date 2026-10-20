@@ -5,6 +5,9 @@
           <div class="contenu">
             <h1>Bienvenu !</h1>  
             <div class="corps">
+              <ion-button expand="block" @click="acceuil">
+                Tableau de bord
+              </ion-button>
               <ion-button expand="block" @click="commencer">
                 Commencer
               </ion-button> 
@@ -22,6 +25,10 @@ import {IonPage, IonContent,IonButton} from '@ionic/vue';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
+
+function acceuil(){
+   router.push('/dashboard')
+}
 
 function commencer(){
   router.push('/register');

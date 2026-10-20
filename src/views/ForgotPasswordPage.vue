@@ -16,7 +16,7 @@
                 </section>
                 <!--Icône central-->
                 <div class="icon-ring">
-                    <ion-iconn :icon="lockOpenOutline"/>
+                    <ion-icon :icon="lockOpenOutline"/>
                 </div>
                 <!--Formulaire-->
                 <form class="forgot-form" @submit.prevent="resetPassword">
@@ -41,7 +41,7 @@
 <script setup>
 import { shieldCheckmark, arrowBackOutline, lockOpenOutline, mailOutline } from 'ionicons/icons';
 import { ref } from 'vue'
-import {IonPage,IonContent, IonIcpn} from '@ionic/vue'
+import {IonPage,IonContent, IonIcon} from '@ionic/vue'
 import { useRouter } from 'vue-router'
 
 const router  = useRouter()
